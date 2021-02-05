@@ -1,0 +1,38 @@
+
+# Created by https://www.toptal.com/developers/gitignore/api/react,visualstudiocode,typings
+# Edit at https://www.toptal.com/developers/gitignore?templates=react,visualstudiocode,typings
+
+dist/*
+
+### react ###
+.DS_*
+*.log
+logs
+**/*.backup.*
+**/*.back.*
+
+node_modules
+bower_components
+
+*.sublime*
+
+psd
+thumb
+sketch
+
+### Typings ###
+## Ignore downloaded typings
+typings
+
+### VisualStudioCode ###
+.vscode/*
+!.vscode/tasks.json
+!.vscode/launch.json
+*.code-workspace
+
+### VisualStudioCode Patch ###
+# Ignore all local history of files
+.history
+.ionide
+
+# End of https://www.toptal.com/developers/gitignore/api/react,visualstudiocode,typings
